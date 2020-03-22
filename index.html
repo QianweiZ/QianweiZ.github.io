@@ -381,7 +381,7 @@ C++巨型网络框架（注意是框架不是库），非常臃肿和庞大，�
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-03-22 11:56:25" itemprop="dateModified" datetime="2020-03-22T11:56:25+08:00">2020-03-22</time>
+                <time title="Modified: 2020-03-22 13:21:44" itemprop="dateModified" datetime="2020-03-22T13:21:44+08:00">2020-03-22</time>
               </span>
 
           
@@ -395,9 +395,7 @@ C++巨型网络框架（注意是框架不是库），非常臃肿和庞大，�
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="BFS"><a href="#BFS" class="headerlink" title="BFS"></a>BFS</h1><h2 id="小明种草"><a href="#小明种草" class="headerlink" title="小明种草"></a>小明种草</h2><p>问题描述：<br>小明有一块空地，他将这块空地划分为 n 行 m 列的小块，每行和每列的长度都为 1。<br>小明选了其中的一些小块空地，种上了草，其他小块仍然保持是空地。<br>这些草长得很快，每个月，草都会向外长出一些，如果一个小块种了草，则它将向自己的上、下、左、右四小块空地扩展，这四小块空地都将变为有草的小块。<br>请告诉小明，k 个月后空地上哪些地方有草。<br>输入为第一行n和m<br>然后输入草地g为有草，“.“为没有草</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">test</span><br></pre></td></tr></table></figure>
-<p>测试</p>
+          <h1 id="BFS"><a href="#BFS" class="headerlink" title="BFS"></a>BFS</h1><h2 id="小明种草"><a href="#小明种草" class="headerlink" title="小明种草"></a>小明种草</h2><p>问题描述：<br>小明有一块空地，他将这块空地划分为 n 行 m 列的小块，每行和每列的长度都为 1。<br>小明选了其中的一些小块空地，种上了草，其他小块仍然保持是空地。<br>这些草长得很快，每个月，草都会向外长出一些，如果一个小块种了草，则它将向自己的上、下、左、右四小块空地扩展，这四小块空地都将变为有草的小块。<br>请告诉小明，k 个月后空地上哪些地方有草。<br>输入为第一行n和m<br>然后输入草地g为有草，“.“为没有草<br>输出为k个月后的草地情况<br>解法一：暴力破解，遍历K次矩阵，在每一个g的上下左右都标成g，对于部分测试用例会超时。<br>解法二：使用BFS，构造一个node的类，里面包含三个值，节点的x、y坐标，还有月份数，<br>开始先将矩阵遍历一遍，将第0天就存在的草入队列，然后将</p>
 
       
     </div>
